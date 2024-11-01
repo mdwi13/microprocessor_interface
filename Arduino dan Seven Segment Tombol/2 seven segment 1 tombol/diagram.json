@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -139.02,
+      "left": 177.88,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg3",
+      "top": -139.02,
+      "left": 101.08,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 220.7,
+      "left": 291.5,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "sevseg3:A", "uno:2", "gray", [ "v-18.36", "h28.8" ] ],
+    [ "sevseg3:B", "uno:3", "violet", [ "v-8.76", "h19.2" ] ],
+    [ "sevseg3:C", "uno:4", "white", [ "v9.6", "h28.8" ] ],
+    [ "sevseg3:D", "uno:5", "purple", [ "v19.2", "h28.8" ] ],
+    [ "sevseg3:E", "uno:6", "limegreen", [ "v28.8", "h38.4" ] ],
+    [ "sevseg3:F", "uno:7", "cyan", [ "v-18.36", "h-19.2", "v124.8", "h38.4" ] ],
+    [ "sevseg3:G", "uno:8", "yellow", [ "v-8.76", "h-19.2", "v124.8", "h28.8" ] ],
+    [ "sevseg1:A", "uno:9", "gray", [ "v-18.36", "h19.2", "v144", "h28.8" ] ],
+    [ "sevseg1:B", "uno:10", "violet", [ "v-8.76", "h19.2", "v144", "h19.2" ] ],
+    [ "sevseg1:C", "uno:11", "green", [ "v67.2", "h38.4" ] ],
+    [ "sevseg1:D", "uno:12", "purple", [ "v67.2", "h48" ] ],
+    [ "sevseg1:E", "uno:13", "limegreen", [ "v57.6", "h48", "v9.6" ] ],
+    [ "sevseg1:F", "uno:A0", "cyan", [ "v-18.36", "h-28.8", "v297.6", "h153.6" ] ],
+    [ "sevseg1:G", "uno:A1", "yellow", [ "v-8.76", "h-9.6", "v268.8", "h153.6" ] ],
+    [ "sevseg1:COM.1", "uno:GND.1", "black", [ "h0", "v28.8", "h19.2" ] ],
+    [ "sevseg3:COM.1", "uno:GND.1", "black", [ "h0", "v48", "h-67.2" ] ],
+    [ "btn1:2.r", "uno:GND.3", "black", [ "v9.8", "h-138" ] ],
+    [ "btn1:2.l", "uno:A2", "green", [ "v0", "h-86.6" ] ],
+    [ "btn1:1.l", "uno:5V", "red", [ "v-9.6", "h-182.4" ] ]
+  ],
+  "dependencies": {}
+}
