@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="880" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="AUlWfMTpm140idI0EFFj-134" value="Mulai Program" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="185" y="20" width="129" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-135" value="Inisialisasi Serial Monitor" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="147" y="122" width="204" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-136" value="Inisialisasi WiFi Manager" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="149" y="224" width="201" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-137" value="Memulai Portal Konfigurasi WiFi" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="141" y="326" width="217" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-138" value="WiFi Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="446" width="168" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-139" value="Tampilkan Terhubung ke WiFi!" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="690" width="199" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-140" value="Tampilkan Gagal terhubung ke WiFi" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="269" y="690" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-141" value="Masukkan Kode Utama di Loop" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="147" y="809" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-142" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-134" target="AUlWfMTpm140idI0EFFj-135">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-143" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-135" target="AUlWfMTpm140idI0EFFj-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-144" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-136" target="AUlWfMTpm140idI0EFFj-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-145" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-137" target="AUlWfMTpm140idI0EFFj-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-146" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-138" target="AUlWfMTpm140idI0EFFj-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-147" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-138" target="AUlWfMTpm140idI0EFFj-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-148" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.13;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-139" target="AUlWfMTpm140idI0EFFj-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUlWfMTpm140idI0EFFj-149" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.87;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AUlWfMTpm140idI0EFFj-140" target="AUlWfMTpm140idI0EFFj-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
